@@ -1,0 +1,17 @@
+{
+  "choose_lang": "Elige tu idioma:",
+  "lang_set": "Idioma cambiado a español.",
+  "welcome": "Escribo historias interactivas. Tú decides qué pasa después.\n\n/new — empezar una historia\n/end — terminar la actual\n/lang — cambiar de idioma\n/help — cómo funciona",
+  "help": "Envía /new y describe la historia que quieres: un género, un lugar, un personaje, lo que sea. Yo abro la escena.\n\nDespués, solo escribe qué haces. Cada mensaje es tu siguiente movimiento.\n\n/end cierra la historia actual. /new siempre empieza de cero.",
+  "ask_premise": "¿De qué va la historia? Describe un lugar, un género o un personaje.\n\nO envía /skip y me lo invento yo.",
+  "premise_skipped": "Me lo invento yo.",
+  "starting": "Abriendo la historia...",
+  "story_started": "Tu historia ha comenzado. Escribe qué haces.",
+  "no_active_story": "No tienes ninguna historia activa. Envía /new para empezar.",
+  "story_ended": "Historia cerrada. Envía /new cuando quieras otra.",
+  "thinking": "Escribiendo...",
+  "llm_error": "El motor de historias no responde. Inténtalo en un momento.",
+  "too_long": "Ese mensaje es demasiado largo. Máximo 1000 caracteres.",
+  "busy": "Todavía estoy escribiendo la parte anterior. Un momento.",
+  "already_active": "Ya tienes una historia en curso. Ciérrala con /end o sigue jugando."
+}

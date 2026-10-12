@@ -1,0 +1,16 @@
+[Unit]
+Description=Telegram story bot
+After=network.target llama-server.service
+Wants=llama-server.service
+
+[Service]
+Type=simple
+User=botuser
+WorkingDirectory=/opt/story-bot
+Environment="PYTHONUNBUFFERED=1"
+ExecStart=/opt/story-bot/.venv/bin/python -m bot.main
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

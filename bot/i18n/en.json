@@ -1,0 +1,17 @@
+{
+  "choose_lang": "Choose your language:",
+  "lang_set": "Language set to English.",
+  "welcome": "I write interactive stories. You decide what happens next.\n\n/new — start a story\n/end — finish the current one\n/lang — change language\n/help — how it works",
+  "help": "Send /new and describe the story you want — a genre, a setting, a character, anything. I'll open the scene.\n\nAfter that, just write what you do. Each message is your next move.\n\n/end closes the current story. /new always starts fresh.",
+  "ask_premise": "What should the story be about? Describe a setting, a genre or a character.\n\nOr send /skip and I'll invent something.",
+  "premise_skipped": "I'll invent it myself.",
+  "starting": "Opening the story...",
+  "story_started": "Your story has begun. Write what you do next.",
+  "no_active_story": "You have no story running. Send /new to start one.",
+  "story_ended": "Story closed. Send /new whenever you want another.",
+  "thinking": "Writing...",
+  "llm_error": "The story engine is not responding. Try again in a moment.",
+  "too_long": "That message is too long. Keep it under 1000 characters.",
+  "busy": "I'm still writing the previous part. One moment.",
+  "already_active": "You already have a story running. Use /end to close it first, or keep playing."
+}

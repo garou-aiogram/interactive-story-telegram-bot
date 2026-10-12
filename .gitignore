@@ -1,0 +1,31 @@
+# Секреты — НИКОГДА не коммитить
+.env
+*.env
+!.env.example
+
+# База данных
+*.db
+*.db-wal
+*.db-shm
+
+# Модели
+*.gguf
+*.bin
+*.safetensors
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+
+# Логи и прочее
+*.log
+user_photos/
